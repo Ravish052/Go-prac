@@ -1,0 +1,14 @@
+{
+  "name": "Go Dev",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "workspaceFolder": "/workspace",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "golang.Go"
+      ]
+    }
+  }
+}   
