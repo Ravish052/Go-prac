@@ -6,3 +6,5 @@ RUN apt-get update && apt-get install -y \
     vim
 
 WORKDIR /workspace
+
+RUN go install github.com/githubnemo/CompileDaemon@latest

@@ -1,9 +1,8 @@
 {
   "name": "Go Dev",
-  "build": {
-    "dockerfile": "Dockerfile"
-  },
-  "workspaceFolder": "/workspace",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspaces/Go-prac",
   "customizations": {
     "vscode": {
       "extensions": [
@@ -11,4 +10,4 @@
       ]
     }
   }
-}   
+}
